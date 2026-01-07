@@ -1,9 +1,5 @@
 # INITIAL TEST SUITE AUTOMATION FOR IP BOT PAGES AND API'S
 
-```sh
-
-```
-
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ## INTRODUCTION
@@ -102,7 +98,13 @@ keeping the same format.
 
 The images of the testing are in the Scrennshot folder and has the name of what is tested.
 
-Feel free to give feedbacks about the project to the email juanpablogroening@islandpitch.com.
+```sh
+
+```
+
+```sh
+
+```
 
 Note: To execute the my fave local test in console type npx wdio run ./wdiofave.conf.js --spec test.existfave.js
 
@@ -130,6 +132,8 @@ https://www.loom.com/share/8587272c948a4208a67fd4f07217b9db
 
 1. Open the console and type npx wdio run ./chromemyfave.conf.js --spec ./test/specs/test.htmlfile.js in the htmlfiles folder.
 2. Select one of the files in the htmlfiles folder with the name of the elements to be checked. With the right button select rename, select the name of the file without the extension. Example: 'main0210204.html', 'main0210204'. Press space, and compare with another, example, gb01152024.html, gb, same first procedure. Copy the whole name of the file except the extension. Then press enter.
+
+Feel free to give feedbacks about the project to the email juanpablogroening@gmail.com.
 
 
 
