@@ -1,8 +1,10 @@
 # INITIAL TEST SUITE AUTOMATION FOR IP BOT PAGES AND API'S
 
+```sh
 
+```
 
- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ## INTRODUCTION
 
@@ -49,6 +51,7 @@ Another function is registering. It has a similar thing with the expected becaus
 fill some fields of the registering page, and clicking buttons. There are tests cases that is with valid emails, invalid emails and
 invalid passwords. With that the elements expected are if the user goes to the page if is succesfully or the elements of the error messages.
 The test data sorce is in register/register.js. The fields are:
+
 - path: Same thing to be existing test.
 - inputuser: The input field for the user email.
 - inputpassword: The field for the password.
@@ -99,7 +102,7 @@ keeping the same format.
 
 The images of the testing are in the Scrennshot folder and has the name of what is tested.
 
-Feel free to give feedbacks about the project to the email juan.groening@islandpitch.com.
+Feel free to give feedbacks about the project to the email juanpablogroening@islandpitch.com.
 
 Note: To execute the my fave local test in console type npx wdio run ./wdiofave.conf.js --spec test.existfave.js
 
@@ -112,17 +115,21 @@ Note: To execute the my fave local test in console type npx wdio run ./wdiofave.
 There are two ways to check if a page was changed. One is by pictures and other by html code.
 
 ## By pictures
+
 https://www.loom.com/share/444dc5b634034236b6856e7edfb1009a
-1) Open the console and type npx wdio run ./chromemyfave.conf.js --spec ./test/specs/test.picture.js. This take the pictures of some elements.
-2) a) Type node compare.js 
+
+1. Open the console and type npx wdio run ./chromemyfave.conf.js --spec ./test/specs/test.picture.js. This take the pictures of some elements.
+2. a) Type node compare.js
    b) Select one of the pictures in the screenshot folder with the name of the elements to be checked. With the right button select rename, select the name of the picture without the extension. Example: 'gb022724.png', 'gb022724'. Press space, and compare with another, example, gb01152024.png, gb, same first procedure. Copy the whole name of the file except the extention. Then press enter.
    The data are:
-   Different score: How in percentage is different the image. 
+   Different score: How in percentage is different the image.
 
 ## By code
+
 https://www.loom.com/share/8587272c948a4208a67fd4f07217b9db
-1) Open the console and type npx wdio run ./chromemyfave.conf.js --spec ./test/specs/test.htmlfile.js in the htmlfiles folder.
-2) Select one of the files in the htmlfiles folder with the name of the elements to be checked. With the right button select rename, select the name of the file without the extension. Example: 'main0210204.html', 'main0210204'. Press space, and compare with another, example, gb01152024.html, gb, same first procedure. Copy the whole name of the file except the extension. Then press enter.
+
+1. Open the console and type npx wdio run ./chromemyfave.conf.js --spec ./test/specs/test.htmlfile.js in the htmlfiles folder.
+2. Select one of the files in the htmlfiles folder with the name of the elements to be checked. With the right button select rename, select the name of the file without the extension. Example: 'main0210204.html', 'main0210204'. Press space, and compare with another, example, gb01152024.html, gb, same first procedure. Copy the whole name of the file except the extension. Then press enter.
 
 
 
